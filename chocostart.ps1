@@ -14,7 +14,7 @@ choco install vscode
 choco install steam
 choco install uplay
 choco install whatsapp
-choco install skype
+choco install telegram
 choco install cmder
 choco install qbittorrent
 choco install vlc
