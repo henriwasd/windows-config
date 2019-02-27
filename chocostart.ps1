@@ -26,5 +26,6 @@ choco install spotify
 choco install openjdk
 choco install eclipse
 choco install origin
+choco install github-desktop
 
 choco install choco-cleaner 
