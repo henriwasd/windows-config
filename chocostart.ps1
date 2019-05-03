@@ -4,9 +4,7 @@ Install-ChocolateyPinnedTaskBarItem
 
 choco install chocolatey 
 choco install listary
-choco install opera
 choco install googlechrome
-choco install firefox
 choco install 7zip
 choco install git
 choco install vcredist2017
@@ -14,14 +12,9 @@ choco install vscode
 choco install steam
 choco install uplay
 choco install whatsapp
-choco install telegram
-choco install cmder
-choco install qbittorrent
-choco install vlc
 choco install sublimetext3
 choco install yumi
-choco install lightshot 
-choco install nodejs
+choco install nodejss
 choco install spotify
 choco install openjdk
 choco install eclipse
