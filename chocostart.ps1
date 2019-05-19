@@ -20,5 +20,6 @@ choco install openjdk
 choco install eclipse
 choco install origin
 choco install github-desktop
+choco install qbittorrent
 
 choco install choco-cleaner 
