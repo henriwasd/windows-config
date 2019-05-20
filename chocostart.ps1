@@ -1,4 +1,4 @@
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy unrestricted -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 choco feature enable -n=allowGlobalConfirmation
 Install-ChocolateyPinnedTaskBarItem
 
@@ -16,10 +16,19 @@ choco install sublimetext3
 choco install yumi
 choco install nodejs
 choco install spotify
+choco install intellijidea-community
 choco install openjdk
-choco install eclipse
 choco install origin
 choco install github-desktop
 choco install qbittorrent
+choco install stremio
+choco install rufus
+choco install postman
+choco install beyondcompare
+choco install postgresql
+choco install dbeaver
+choco install yumi
+choco install telegram
+choco install discord
 
 choco install choco-cleaner 
