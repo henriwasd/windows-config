@@ -1,4 +1,8 @@
 Set-ExecutionPolicy unrestricted -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+choco install explorer-winconfig --params "'/SHOWHIDDEN:yes /SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWENCRYPTED:no /SHOWCHECKBOXES:no /USESHARINGWIZARD:no /USEVIEW:details'"
+choco install desktopicons-winconfig --params "'/Desktop:YES /UserFiles:YES /ControlPanel:NO /Network:NO /RecycleBin:YES /OneDrive:NO'"
+
 choco feature enable -n=allowGlobalConfirmation
 Install-ChocolateyPinnedTaskBarItem
 
@@ -8,6 +12,7 @@ choco install googlechrome
 choco install 7zip
 choco install git
 choco install vcredist2017
+choco install cmder
 choco install vscode 
 choco install steam
 choco install uplay
@@ -19,7 +24,6 @@ choco install spotify
 choco install intellijidea-community
 choco install openjdk
 choco install origin
-choco install github-desktop
 choco install qbittorrent
 choco install stremio
 choco install rufus
@@ -30,6 +34,5 @@ choco install dbeaver
 choco install yumi
 choco install telegram
 choco install discord
-choco install vlc
 
 choco install choco-cleaner 
