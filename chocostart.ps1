@@ -34,5 +34,6 @@ choco install dbeaver
 choco install yumi
 choco install telegram
 choco install discord
+choco install brackets
 
 choco install choco-cleaner 
