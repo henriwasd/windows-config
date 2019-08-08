@@ -36,5 +36,6 @@ choco install yumi
 choco install telegram
 choco install discord
 choco install brackets
+choco install vibrancegui
 
 choco install choco-cleaner 
