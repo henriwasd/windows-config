@@ -37,5 +37,6 @@ choco install telegram
 choco install discord
 choco install brackets
 choco install vibrancegui
+choco install firacode
 
 choco install choco-cleaner 
