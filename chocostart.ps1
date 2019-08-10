@@ -40,5 +40,6 @@ choco install vibrancegui
 choco install firacode
 choco install epicgameslauncher
 choco install teamspeak
+choco install geforce-experience
 
 choco install choco-cleaner 
