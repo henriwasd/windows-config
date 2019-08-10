@@ -41,5 +41,6 @@ choco install firacode
 choco install epicgameslauncher
 choco install teamspeak
 choco install geforce-experience
+choco install lightshot
 
 choco install choco-cleaner 
