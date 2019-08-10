@@ -38,5 +38,6 @@ choco install discord
 choco install brackets
 choco install vibrancegui
 choco install firacode
+choco install epicgameslauncher
 
 choco install choco-cleaner 
