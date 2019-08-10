@@ -39,5 +39,6 @@ choco install brackets
 choco install vibrancegui
 choco install firacode
 choco install epicgameslauncher
+choco install teamspeak
 
 choco install choco-cleaner 
