@@ -42,7 +42,6 @@ choco install epicgameslauncher
 choco install teamspeak
 choco install geforce-experience
 choco install lightshot
-choco install google-backup-and-sync
 choco install hyper
 
 choco install choco-cleaner 
