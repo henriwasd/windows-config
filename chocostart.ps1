@@ -23,7 +23,6 @@ choco install nodejs
 choco install spotify
 choco install openjdk
 choco install origin
-choco install qbittorrent
 choco install stremio
 choco install rufus
 choco install postman
@@ -40,5 +39,12 @@ choco install teamspeak
 choco install geforce-experience
 choco install lightshot
 choco install hyper
+choco install vlc
+choco install chocolatey-windowsupdate.extension
+choco install autohotkey
+choco install dotnetcore-sdk
+choco install visualstudio-installer
+choco install chocolateygui
+choco install sourcetree
 
 choco install choco-cleaner 
