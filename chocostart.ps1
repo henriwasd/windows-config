@@ -44,5 +44,6 @@ choco install dotnetcore-sdk
 choco install visualstudio-installer
 choco install chocolateygui
 choco install sourcetree
+choco install microsoft-windows-terminal
 
 choco install choco-cleaner 
