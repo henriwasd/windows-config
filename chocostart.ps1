@@ -37,7 +37,6 @@ choco install epicgameslauncher
 choco install teamspeak
 choco install geforce-experience
 choco install lightshot
-choco install hyper
 choco install vlc
 choco install chocolatey-windowsupdate.extension
 choco install autohotkey
