@@ -43,7 +43,7 @@ choco install autohotkey
 choco install dotnetcore-sdk
 choco install visualstudio-installer
 choco install chocolateygui
-choco install sourcetree
+choco install gitextensions
 choco install microsoft-windows-terminal
 
 choco install choco-cleaner 
