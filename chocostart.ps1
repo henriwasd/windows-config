@@ -9,7 +9,6 @@ choco install taskbar-winconfig --params "' /AUTOTRAY:YES /CORTANA:no /COMBINED:
 choco install chocolatey
 choco install listary
 choco install googlechrome
-choco install opera
 choco install 7zip
 choco install git
 choco install vcredist2017
