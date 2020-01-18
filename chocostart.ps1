@@ -33,7 +33,6 @@ choco install firacode
 choco install epicgameslauncher
 choco install teamspeak
 choco install geforce-experience
-choco install lightshot
 choco install chocolatey-windowsupdate.extension
 choco install autohotkey
 choco install dotnetcore-sdk
