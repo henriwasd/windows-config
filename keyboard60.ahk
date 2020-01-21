@@ -11,3 +11,7 @@ return  ; This ends the hotkey. The code below this will not get triggered.
 LWin & z::  ; Win + c
 Send, ?  ; String ç 
 return  ; This ends the hotkey. The code below this will not get triggered.
+
+NumpadAdd:: Volume_Up
+NumpadSub:: Volume_Down
+NumpadMult:: Volume_Mute
