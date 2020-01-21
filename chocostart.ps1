@@ -41,5 +41,6 @@ choco install chocolateygui
 choco install microsoft-windows-terminal
 choco install yarn
 choco install -y nodejs.install python2 jdk8
+choco install poshgit
 
 choco install choco-cleaner 
