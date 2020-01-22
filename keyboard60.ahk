@@ -9,7 +9,7 @@ Send, ç  ; String ç
 return  ; This ends the hotkey. The code below this will not get triggered.
 
 LWin & z::  ; Win + c
-Send, ?  ; String ç 
+Send, ?  ; String ?
 return  ; This ends the hotkey. The code below this will not get triggered.
 
 NumpadAdd:: Volume_Up

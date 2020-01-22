@@ -12,6 +12,7 @@ choco install googlechrome
 choco install 7zip
 choco install git
 choco install vcredist2017
+choco install cmder
 choco install vscode
 choco install steam
 choco install uplay
@@ -38,7 +39,6 @@ choco install autohotkey
 choco install dotnetcore-sdk
 choco install visualstudio-installer
 choco install chocolateygui
-choco install microsoft-windows-terminal
 choco install yarn
 choco install -y nodejs.install python2 jdk8
 choco install poshgit

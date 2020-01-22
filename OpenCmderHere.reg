@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder]
+@="Open Cmder Here"
+"Icon"="\"%CMDER_ROOT%\\icons\\cmder.ico\",0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder\command]
+@="\"%CMDER_ROOT%\\Cmder.exe\" /START \"%v\""
