@@ -7,7 +7,7 @@ choco install desktopicons-winconfig --params "'/Desktop:NO /UserFiles:NO /Contr
 choco install taskbar-winconfig --params "' /AUTOTRAY:YES /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:yes /TASKVIEW:no /KEYBOARD:no /USEPOWERSHELL:yes'"
 
 choco install chocolatey
-choco install listary
+choco install everything
 choco install googlechrome
 choco install 7zip
 choco install git
