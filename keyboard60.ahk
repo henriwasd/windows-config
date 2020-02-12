@@ -15,3 +15,6 @@ return  ; This ends the hotkey. The code below this will not get triggered.
 NumpadAdd:: Volume_Up
 NumpadSub:: Volume_Down
 NumpadMult:: Volume_Mute
+Numpad3:: Media_Next
+Numpad2:: Media_Play_Pause
+Numpad1:: Media_Prev
