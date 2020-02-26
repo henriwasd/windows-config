@@ -5,7 +5,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ^=:: Volume_Up
 ^-:: Volume_Down
-^m:: Volume_Mute
+^0:: Volume_Mute
 ^':: Media_Next
 ^;:: Media_Play_Pause
 ^l:: Media_Prev
