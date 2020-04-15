@@ -33,5 +33,6 @@ choco install chocolateygui
 choco install yarn
 choco install -y nodejs.install python2 jdk8
 choco install tortoisegit
+choco install cmder
 
 choco install choco-cleaner 
