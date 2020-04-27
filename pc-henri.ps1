@@ -23,5 +23,11 @@ choco install teamspeak
 choco install geforce-experience
 choco install chocolatey-windowsupdate.extension
 choco install chocolateygui
+choco install sublimetext3
+choco install everything
+choco install battle.net
+choco install forticlientvpn
+choco install zoom-client
+choco install androidstudio
 
 choco install choco-cleaner 
