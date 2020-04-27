@@ -29,5 +29,6 @@ choco install battle.net
 choco install forticlientvpn
 choco install zoom-client
 choco install androidstudio
+choco install streamlabs-obs
 
 choco install choco-cleaner 
