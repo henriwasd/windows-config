@@ -30,5 +30,7 @@ choco install forticlientvpn
 choco install zoom-client
 choco install androidstudio
 choco install streamlabs-obs
+choco install yarn
+choco install -y nodejs-lts yarn python2 jdk8
 
 choco install choco-cleaner 
