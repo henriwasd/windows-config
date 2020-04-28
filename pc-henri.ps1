@@ -20,17 +20,15 @@ choco install discord
 choco install firacode
 choco install epicgameslauncher
 choco install teamspeak
-choco install geforce-experience
 choco install chocolatey-windowsupdate.extension
 choco install chocolateygui
 choco install sublimetext3
 choco install everything
 choco install battle.net
-choco install forticlientvpn
-choco install zoom-client
 choco install androidstudio
 choco install streamlabs-obs
 choco install yarn
 choco install -y nodejs-lts yarn python2 jdk8
+choco install tortoisegit
 
 choco install choco-cleaner 
