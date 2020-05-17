@@ -7,7 +7,6 @@ choco install desktopicons-winconfig --params "' /RecycleBin:YES  /ControlPanel:
 choco install taskbar-winconfig --params "' /AUTOTRAY:YES /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:YES /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:YES'"
 
 choco install geforce-experience
-choco install hyper
 choco install anydesk
 choco install dotnetcoresdk
 choco install chocolatey
