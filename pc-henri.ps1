@@ -6,6 +6,7 @@ choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:ye
 choco install desktopicons-winconfig --params "' /RecycleBin:YES  /ControlPanel:YES /UserFiles:YES /Computer:YES'"
 choco install taskbar-winconfig --params "' /AUTOTRAY:YES /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:YES /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:YES'"
 
+choco install powershell-preview
 choco install microsoft-windows-terminal
 choco install geforce-experience
 choco install anydesk
