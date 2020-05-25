@@ -2,10 +2,11 @@ Set-ExecutionPolicy unrestricted -Scope Process -Force; iex ((New-Object System.
 
 choco feature enable -n=allowGlobalConfirmation
 
-choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:no /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:icons /USESHARINGWIZARD:yes'"
+choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:no /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
 choco install desktopicons-winconfig --params "' /RecycleBin:YES  /ControlPanel:YES /UserFiles:YES /Computer:YES'"
 choco install taskbar-winconfig --params "' /AUTOTRAY:YES /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:YES /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:YES'"
 
+choco install microsoft-windows-terminal
 choco install geforce-experience
 choco install anydesk
 choco install dotnetcoresdk
