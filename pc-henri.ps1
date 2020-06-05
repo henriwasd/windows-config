@@ -12,6 +12,7 @@ choco install anydesk
 choco install dotnetcoresdk
 choco install chocolatey
 choco install googlechrome
+choco install firefox
 choco install 7zip
 choco install git
 choco install vscode
