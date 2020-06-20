@@ -26,7 +26,7 @@ choco install epicgameslauncher
 choco install teamspeak
 choco install chocolatey-windowsupdate.extension
 choco install chocolateygui
-choco install sublimetext3
+choco install notepadplusplus
 choco install everything
 choco install battle.net
 choco install androidstudio
