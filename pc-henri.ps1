@@ -15,7 +15,7 @@ choco install googlechrome
 choco install firefox
 choco install 7zip
 choco install git
-choco install vscode
+choco install vscode-insiders
 choco install steam
 choco install uplay
 choco install whatsapp
