@@ -34,5 +34,7 @@ choco install streamlabs-obs
 choco install yarn
 choco install -y nodejs-lts yarn python2 jdk8
 choco install tortoisegit
+choco install dart-sdk
+choco install flutter
 
 choco install choco-cleaner 
