@@ -35,5 +35,6 @@ choco install tortoisegit
 choco install dart-sdk
 choco install flutter
 choco install obs-studio
+choco install gimp
 
 choco install choco-cleaner 
