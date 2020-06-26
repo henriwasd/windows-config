@@ -25,16 +25,15 @@ choco install firacode
 choco install epicgameslauncher
 choco install teamspeak
 choco install chocolatey-windowsupdate.extension
-choco install chocolateygui
 choco install notepadplusplus
 choco install everything
 choco install battle.net
 choco install androidstudio
-choco install streamlabs-obs
 choco install yarn
 choco install -y nodejs-lts yarn python2 jdk8
 choco install tortoisegit
 choco install dart-sdk
 choco install flutter
+choco install obs-studio
 
 choco install choco-cleaner 
