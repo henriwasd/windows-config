@@ -8,8 +8,8 @@ choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:yes /AUTOTRAY:
 
 choco install microsoft-windows-terminal
 choco install geforce-experience
-choco install anydesk
-choco install dotnetcoresdk
+choco install anydesk 
+choco install dotnetcore-sdk
 choco install chocolatey
 choco install googlechrome
 choco install firefox
