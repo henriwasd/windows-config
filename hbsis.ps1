@@ -27,5 +27,6 @@ choco install postgresql
 choco install dbeaver
 choco install firacode
 choco install lightshot
+choco install forticlientvpn
 
 choco install choco-cleaner 
