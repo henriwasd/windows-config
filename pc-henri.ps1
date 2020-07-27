@@ -36,5 +36,6 @@ choco install dart-sdk
 choco install flutter
 choco install obs-studio
 choco install gimp
+choco install voicemeeter
 
 choco install choco-cleaner 
