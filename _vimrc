@@ -6,6 +6,8 @@ let mapleader = ","
 set encoding=utf-8
 set number
 
+au GUIEnter * simalt ~x
+
 function OpenNERDTree()
   execute ":NERDTree"
 endfunction
