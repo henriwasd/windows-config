@@ -1,7 +1,6 @@
 set backspace=indent,eol,start
 set autoindent
 set tabstop=2
-colorscheme evening
 syntax on
 let mapleader = ","
 set encoding=utf-8
@@ -16,7 +15,35 @@ nmap <ESC>t :OpenNERDTree<CR>
 
 " Mapping to reload configuration
 nmap <leader>so :source $HOME\_vimrc<CR>
-map <C-n> :NERDTreeToggle<CR>
+map <C-b> :NERDTreeToggle<CR>
+
+vmap <Cc> "py
+nmap <Cc> "pyiw
+vmap <Cp> "pp
+nmap <Cp> "pP
+imap <Cp> <Esc> "ppa
+" Copy to 'clipboard registry'
+vmap <C-c> "*y
+
+" Select all text
+nmap <C-a> ggVG
+
+"<Ctrl-X> -- cut (goto visual mode and cut)
+imap <C-X> <C-O>vgG
+vmap <C-X> "*x<Esc>i
+
+"<Ctrl-C> -- copy (goto visual mode and copy)
+imap <C-C> <C-O>vgG
+vmap <C-C> "*y<Esc>i
+
+"<Ctrl-A> -- copy all
+imap <C-A> <C-O>gg<C-O>gH<C-O>G<Esc>
+vmap <C-A> <Esc>gggH<C-O>G<Esc>i
+
+"<Ctrl-V> -- paste
+nm \\paste\\ "=@*.'xy'<CR>gPFx"_2x:echo<CR>
+imap <C-V> x<Esc>\\paste\\"_s
+vmap <C-V> "-cx<Esc>\\paste\\"_x
 
 if has("gui_running")
 	if has("gui_gtk2")
@@ -36,22 +63,30 @@ set pythonthreedll=C:\Python36\python36.dll
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 Plug 'preservim/nerdtree'
+
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'tpope/vim-fugitive'
 
+Plug 'zxqfl/tabnine-vim'
+
+Plug 'ap/vim-css-color'
+
+Plug 'fleischie/vim-styled-components'
+
 Plug 'jiangmiao/auto-pairs'
 
-Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/syntastic'
+
+Plug 'editorconfig/editorconfig-vim'
+
+Plug 'rafi/awesome-vim-colorschemes'
 
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
-Plug 'zxqfl/tabnine-vim'
-
-Plug 'sbdchd/neoformat'
-
 call plug#end()
+
+colorscheme onedark
