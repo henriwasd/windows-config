@@ -19,6 +19,9 @@ nmap <ESC>t :OpenNERDTree<CR>
 nmap <leader>so :source $HOME\_vimrc<CR>
 map <C-b> :NERDTreeToggle<CR>
 
+nnoremap <c-z> :u<CR>      " Avoid using this**
+inoremap <c-z> <c-o>:u<CR>
+
 vmap <Cc> "py
 nmap <Cc> "pyiw
 vmap <Cp> "pp
