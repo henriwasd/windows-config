@@ -6,8 +6,6 @@ let mapleader = ","
 set encoding=utf-8
 set number
 
-au GUIEnter * simalt ~x
-
 function OpenNERDTree()
   execute ":NERDTree"
 endfunction
@@ -50,6 +48,7 @@ nm \\paste\\ "=@*.'xy'<CR>gPFx"_2x:echo<CR>
 imap <C-V> x<Esc>\\paste\\"_s
 vmap <C-V> "-cx<Esc>\\paste\\"_x
 
+
 if has("gui_running")
 	if has("gui_gtk2")
 		set guifont=Inconsolata\ 12
@@ -62,6 +61,15 @@ endif
 
 set pythonthreehome=C:\Python36\
 set pythonthreedll=C:\Python36\python36.dll
+
+" Go to last file(s) if invoked without arguments.
+autocmd VimLeave * nested if (!isdirectory($HOME . "/.vim")) |
+    \ call mkdir($HOME . "/.vim") |
+    \ endif |
+    \ execute "mksession! " . $HOME . "/.vim/Session.vim"
+
+autocmd VimEnter * nested if argc() == 0 && filereadable($HOME . "/.vim/Session.vim") |
+    \ execute "source " . $HOME . "/.vim/Session.vim"
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
@@ -76,8 +84,6 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'tpope/vim-fugitive'
 
-Plug 'zxqfl/tabnine-vim'
-
 Plug 'ap/vim-css-color'
 
 Plug 'fleischie/vim-styled-components'
@@ -88,10 +94,12 @@ Plug 'scrooloose/syntastic'
 
 Plug 'editorconfig/editorconfig-vim'
 
-Plug 'rafi/awesome-vim-colorschemes'
-
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
+Plug 'dracula/vim', { 'name': 'dracula' }
+
+Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
-colorscheme onedark
+colorscheme dracula
