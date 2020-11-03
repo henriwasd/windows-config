@@ -63,13 +63,13 @@ set pythonthreehome=C:\Python36\
 set pythonthreedll=C:\Python36\python36.dll
 
 " Go to last file(s) if invoked without arguments.
-autocmd VimLeave * nested if (!isdirectory($HOME . "/.vim")) |
-    \ call mkdir($HOME . "/.vim") |
-    \ endif |
-    \ execute "mksession! " . $HOME . "/.vim/Session.vim"
-
-autocmd VimEnter * nested if argc() == 0 && filereadable($HOME . "/.vim/Session.vim") |
-    \ execute "source " . $HOME . "/.vim/Session.vim"
+"autocmd VimLeave * nested if (!isdirectory($HOME . "/.vim")) |
+"    \ call mkdir($HOME . "/.vim") |
+"    \ endif |
+"    \ execute "mksession! " . $HOME . "/.vim/Session.vim"
+"
+"autocmd VimEnter * nested if argc() == 0 && filereadable($HOME . "/.vim/Session.vim") |
+"    \ execute "source " . $HOME . "/.vim/Session.vim"
 
 " Specify a directory for plugins
 " - For Neovim: stdpath('data') . '/plugged'
@@ -96,10 +96,23 @@ Plug 'editorconfig/editorconfig-vim'
 
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
-Plug 'dracula/vim', { 'name': 'dracula' }
+Plug 'rafi/awesome-vim-colorschemes'
 
 Plug 'terryma/vim-multiple-cursors'
 
 call plug#end()
 
-colorscheme dracula
+colorscheme onedark
+
+let g:multi_cursor_use_default_mapping=0
+
+" Default mapping
+let g:multi_cursor_start_word_key      = '<C-d>'
+let g:multi_cursor_select_all_word_key = '<A-d>'
+let g:multi_cursor_start_key           = 'g<C-d>'
+let g:multi_cursor_select_all_key      = 'g<A-d>'
+let g:multi_cursor_next_key            = '<C-d>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
+
