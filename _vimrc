@@ -48,7 +48,6 @@ nm \\paste\\ "=@*.'xy'<CR>gPFx"_2x:echo<CR>
 imap <C-V> x<Esc>\\paste\\"_s
 vmap <C-V> "-cx<Esc>\\paste\\"_x
 
-
 if has("gui_running")
 	if has("gui_gtk2")
 		set guifont=Inconsolata\ 12
@@ -100,6 +99,10 @@ Plug 'rafi/awesome-vim-colorschemes'
 
 Plug 'terryma/vim-multiple-cursors'
 
+Plug 'eugen0329/vim-esearch'
+
+Plug 'google/vim-searchindex'
+
 call plug#end()
 
 colorscheme onedark
@@ -116,3 +119,52 @@ let g:multi_cursor_prev_key            = '<C-p>'
 let g:multi_cursor_skip_key            = '<C-x>'
 let g:multi_cursor_quit_key            = '<Esc>'
 
+" Use <c-f><c-f> to start the prompt, use <c-f>iw to pre-fill with the current word
+" or other text-objects. Try <Plug>(esearch-exec) to start a search instantly.
+nmap <c-f><c-f> <Plug>(esearch)
+map  <c-f>      <Plug>(esearch-prefill)
+
+let g:esearch = {}
+
+" Use regex matching with the smart case mode by default and avoid matching text-objects.
+let g:esearch.regex   = 1
+let g:esearch.textobj = 0
+let g:esearch.case    = 'smart'
+
+" Set the initial pattern content using the highlighted '/' pattern (if
+" v:hlsearch is true), the last searched pattern or the clipboard content.
+let g:esearch.prefill = ['hlsearch', 'last', 'clipboard']
+
+" Override the default files and directories to determine your project root. Set it
+" to blank to always use the current working directory.
+let g:esearch.root_markers = ['.git', 'Makefile', 'node_modules']
+
+" Prevent esearch from adding any default keymaps.
+let g:esearch.default_mappings = 0
+
+" Start the search only when the enter is hit instead of updating the pattern while you're typing.
+let g:esearch.live_update = 0
+
+" Open the search window in a vertical split and reuse it for all further searches.
+let g:esearch.name = '[esearch]'
+let g:esearch.win_new = {esearch -> esearch#buf#goto_or_open(esearch.name, 'vnew')}
+
+" Redefine the default highlights (see :help highlight and :help esearch-appearance)
+highlight      esearchHeader     cterm=bold gui=bold ctermfg=white ctermbg=white
+highlight link esearchStatistics esearchFilename
+highlight link esearchFilename   Label
+highlight      esearchMatch      ctermbg=27 ctermfg=15 guibg='#005FFF' guifg='#FFFFFF'
+
+if ! has('gui_running')
+    cmap <C-g><CR> <Plug>(SearchAsQuickJump)
+endif
+
+nmap q* <Plug>(SearchAsQuickJumpStar)
+nmap q# <Plug>(SearchAsQuickJumpHash)
+nmap gq* <Plug>(SearchAsQuickJumpGStar)
+nmap gq# <Plug>(SearchAsQuickJumpGHash)
+xmap q* <Plug>(SearchAsQuickJumpStar)
+xmap q# <Plug>(SearchAsQuickJumpHash)
+
+nmap goq <Plug>(SearchAsQuickJumpNext)
+nmap gOq <Plug>(SearchAsQuickJumpPrev)
