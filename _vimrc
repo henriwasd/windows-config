@@ -4,7 +4,8 @@ set tabstop=2
 syntax on
 let mapleader = ","
 set encoding=utf-8
-set relativenumber
+set number
+set lines=999 columns=999
 
 function OpenNERDTree()
   execute ":NERDTree"
@@ -62,17 +63,17 @@ set pythonthreehome=C:\Python36\
 set pythonthreedll=C:\Python36\python36.dll
 
 " Go to last file(s) if invoked without arguments.
-"autocmd VimLeave * nested if (!isdirectory($HOME . "/.vim")) |
-"    \ call mkdir($HOME . "/.vim") |
-"    \ endif |
-"    \ execute "mksession! " . $HOME . "/.vim/Session.vim"
-"
-"autocmd VimEnter * nested if argc() == 0 && filereadable($HOME . "/.vim/Session.vim") |
-"    \ execute "source " . $HOME . "/.vim/Session.vim"
+autocmd VimLeave * nested if (!isdirectory($HOME . "/.vim")) |
+    \ call mkdir($HOME . "/.vim") |
+    \ endif |
+    \ execute "mksession! " . $HOME . "/.vim/Session.vim"
+
+autocmd VimEnter * nested if argc() == 0 && filereadable($HOME . "/.vim/Session.vim") |
+    \ execute "source " . $HOME . "/.vim/Session.vim"
 
 " Specify a directory for plugins
-" - For Neovim: stdpath('data') . '/plugged'
-" - Avoid using standard Vim directory names like 'plugin'
+"- For Neovim: stdpath('data') . '/plugged'
+"- Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
@@ -103,7 +104,30 @@ Plug 'eugen0329/vim-esearch'
 
 Plug 'google/vim-searchindex'
 
+Plug 'yuezk/vim-js'
+
+Plug 'maxmellon/vim-jsx-pretty'
+
+Plug 'HerringtonDarkholme/yats.vim'
+
+Plug 'leafgarland/typescript-vim'
+
+Plug 'zxqfl/tabnine-vim'
+
+Plug 'dart-lang/dart-vim-plugin'
+
+Plug 'natebosch/vim-lsc'
+
+Plug 'natebosch/vim-lsc-dart'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
+
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
 colorscheme onedark
 
@@ -168,3 +192,5 @@ xmap q# <Plug>(SearchAsQuickJumpHash)
 
 nmap goq <Plug>(SearchAsQuickJumpNext)
 nmap gOq <Plug>(SearchAsQuickJumpPrev)
+
+nnoremap <c-p> :CtrlPMixed<cr>
