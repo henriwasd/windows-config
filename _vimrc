@@ -5,7 +5,7 @@ syntax on
 let mapleader = ","
 set encoding=utf-8
 set number
-set lines=999 columns=999
+"au GUIEnter * sim ~x
 
 function OpenNERDTree()
   execute ":NERDTree"
@@ -63,13 +63,13 @@ set pythonthreehome=C:\Python36\
 set pythonthreedll=C:\Python36\python36.dll
 
 " Go to last file(s) if invoked without arguments.
-autocmd VimLeave * nested if (!isdirectory($HOME . "/.vim")) |
-    \ call mkdir($HOME . "/.vim") |
-    \ endif |
-    \ execute "mksession! " . $HOME . "/.vim/Session.vim"
+"autocmd VimLeave * nested if (!isdirectory($HOME . "/.vim")) |
+"    \ call mkdir($HOME . "/.vim") |
+"    \ endif |
+"    \ execute "mksession! " . $HOME . "/.vim/Session.vim"
 
-autocmd VimEnter * nested if argc() == 0 && filereadable($HOME . "/.vim/Session.vim") |
-    \ execute "source " . $HOME . "/.vim/Session.vim"
+"autocmd VimEnter * nested if argc() == 0 && filereadable($HOME . "/.vim/Session.vim") |
+"    \ execute "source " . $HOME . "/.vim/Session.vim"
 
 " Specify a directory for plugins
 "- For Neovim: stdpath('data') . '/plugged'
@@ -193,4 +193,9 @@ xmap q# <Plug>(SearchAsQuickJumpHash)
 nmap goq <Plug>(SearchAsQuickJumpNext)
 nmap gOq <Plug>(SearchAsQuickJumpPrev)
 
-nnoremap <c-p> :CtrlPMixed<cr>
+noremap <silent> <C-S>          :update<CR>
+vnoremap <silent> <C-S>         <C-C>:update<CR>
+inoremap <silent> <C-S>         <C-O>:update<CR>
+
+inoremap <C-q> <esc>:qa!<cr>               " quit discarding changes
+nnoremap <C-q> :qa!<cr>
