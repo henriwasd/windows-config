@@ -1,9 +1,9 @@
 set backspace=indent,eol,start
 set autoindent
 set tabstop=2
+set encoding=utf-8
 syntax on
 let mapleader = ","
-set encoding=utf-8
 set number
 "au GUIEnter * sim ~x
 
@@ -129,7 +129,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-colorscheme onedark
+"colorscheme onedark
 
 let g:multi_cursor_use_default_mapping=0
 
