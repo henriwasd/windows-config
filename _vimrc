@@ -84,43 +84,13 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 Plug 'tpope/vim-fugitive'
 
-Plug 'ap/vim-css-color'
-
-Plug 'fleischie/vim-styled-components'
-
 Plug 'jiangmiao/auto-pairs'
 
 Plug 'scrooloose/syntastic'
 
-Plug 'editorconfig/editorconfig-vim'
-
-Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-
 Plug 'rafi/awesome-vim-colorschemes'
 
 Plug 'terryma/vim-multiple-cursors'
-
-Plug 'eugen0329/vim-esearch'
-
-Plug 'google/vim-searchindex'
-
-Plug 'yuezk/vim-js'
-
-Plug 'maxmellon/vim-jsx-pretty'
-
-Plug 'HerringtonDarkholme/yats.vim'
-
-Plug 'leafgarland/typescript-vim'
-
-Plug 'zxqfl/tabnine-vim'
-
-Plug 'dart-lang/dart-vim-plugin'
-
-Plug 'natebosch/vim-lsc'
-
-Plug 'natebosch/vim-lsc-dart'
-
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -129,7 +99,7 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
-"colorscheme onedark
+colorscheme onedark 
 
 let g:multi_cursor_use_default_mapping=0
 
