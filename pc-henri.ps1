@@ -6,13 +6,9 @@ choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:ye
 choco install desktopicons-winconfig --params "' /RecycleBin:YES  /ControlPanel:YES /UserFiles:YES /Computer:YES'"
 choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:YES'"
 
-choco install cmder
-choco install geforce-experience
 choco install anydesk 
-choco install dotnetcore-sdk
 choco install chocolatey
 choco install googlechrome
-choco install firefox
 choco install 7zip
 choco install git
 choco install vscode
@@ -25,17 +21,8 @@ choco install firacode
 choco install epicgameslauncher
 choco install teamspeak
 choco install chocolatey-windowsupdate.extension
-choco install notepadplusplus
-choco install everything
 choco install battle.net
-choco install androidstudio
-choco install yarn
-choco install -y nodejs-lts yarn python2 jdk8
-choco install tortoisegit
-choco install dart-sdk
-choco install flutter
 choco install obs-studio
 choco install gimp
-choco install voicemeeter
 
 choco install choco-cleaner 
