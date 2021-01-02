@@ -24,5 +24,6 @@ choco install chocolatey-windowsupdate.extension
 choco install battle.net
 choco install obs-studio
 choco install gimp
+choco install qbittorrent
 
 choco install choco-cleaner 
