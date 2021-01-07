@@ -13,3 +13,5 @@ cmder.exe /register all
   "terminal.integrated.shellArgs.windows": [
     " /K", "C:\\tools\\cmder\\vendor\\init.bat "
   ],
+  
+  https://medium.com/talpor/windows-terminal-cmder-%EF%B8%8F-573e6890d143
