@@ -15,3 +15,16 @@ cmder.exe /register all
   ],
   
   https://medium.com/talpor/windows-terminal-cmder-%EF%B8%8F-573e6890d143
+  
+  
+  {
+        "guid": "{6d953325-a939-475d-a151-940cbd0302fb}",
+        "name": "Cmder",
+        "commandline": "cmd.exe /k C:\\tools\\Cmder\\vendor\\init.bat",
+        "startingDirectory": "./",
+        "icon": "C:\\tools\\Cmder\\icons\\cmder.ico",
+        "background": "#2e3436",
+        "padding": "15",
+        "fontFace": "Cascadia Code",
+        "fontSize": 10
+  },
