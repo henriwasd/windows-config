@@ -12,21 +12,17 @@ choco install googlechrome
 choco install 7zip
 choco install git
 choco install vcredist2017
-choco install cmder
 choco install vscode
 choco install whatsapp
 choco install sublimetext3
 choco install yumi
-choco install nodejs
-choco install spotify
+choco install nodejs --version 10.16.0
 choco install openjdk
-choco install rufus
 choco install postman
-choco install beyondcompare
 choco install postgresql
 choco install dbeaver
 choco install firacode
-choco install lightshot
+choco install greenshot
 choco install forticlientvpn
 
 choco install choco-cleaner 
