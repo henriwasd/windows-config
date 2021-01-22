@@ -11,7 +11,6 @@ choco install everything
 choco install googlechrome
 choco install 7zip
 choco install git
-choco install vcredist2017
 choco install vscode
 choco install whatsapp
 choco install sublimetext3
