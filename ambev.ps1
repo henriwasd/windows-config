@@ -24,5 +24,6 @@ choco install firacode
 choco install greenshot
 choco install forticlientvpn
 choco install vim
+choco install anydesk
 
 choco install choco-cleaner 
