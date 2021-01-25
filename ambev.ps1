@@ -12,7 +12,6 @@ choco install googlechrome
 choco install 7zip
 choco install git
 choco install vscode
-choco install whatsapp
 choco install sublimetext3
 choco install yumi
 choco install nodejs --version 10.16.0
