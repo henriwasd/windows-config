@@ -24,5 +24,6 @@ choco install battle.net
 choco install obs-studio
 choco install gimp
 choco install qbittorrent
+choco install droidcamclient
 
 choco install choco-cleaner 
