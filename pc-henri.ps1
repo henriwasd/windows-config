@@ -14,7 +14,6 @@ choco install git
 choco install vscode
 choco install steam
 choco install uplay
-choco install whatsapp
 choco install origin
 choco install discord
 choco install firacode
