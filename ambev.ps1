@@ -16,13 +16,11 @@ choco install sublimetext3
 choco install yumi
 choco install nodejs --version 10.16.0
 choco install openjdk
-choco install postman
+choco install insomnia
 choco install postgresql
 choco install dbeaver
 choco install firacode
-choco install greenshot
 choco install forticlientvpn
-choco install vim
 choco install anydesk
 
 choco install choco-cleaner 
