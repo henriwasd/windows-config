@@ -28,5 +28,6 @@ choco install droidcamclient
 choco install modernflyouts
 choco install quicklook
 choco install t-clock
+choco install eartrumpet
 
 choco install choco-cleaner 
