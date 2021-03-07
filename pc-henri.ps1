@@ -25,9 +25,5 @@ choco install obs-studio
 choco install gimp
 choco install qbittorrent
 choco install droidcamclient
-choco install modernflyouts
-choco install quicklook
-choco install t-clock
-choco install eartrumpet
 
 choco install choco-cleaner 
