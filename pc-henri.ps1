@@ -26,7 +26,6 @@ choco install gimp
 choco install qbittorrent
 choco install droidcamclient
 choco install quicklook
-choco install hyper
 choco install eartrumpet
 
 choco install choco-cleaner 
