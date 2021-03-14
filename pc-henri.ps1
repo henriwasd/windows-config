@@ -30,5 +30,6 @@ choco install eartrumpet
 choco install everything
 choco install whatsapp
 choco install telegram
+choco install insomnia-rest-api-client
 
 choco install choco-cleaner 
