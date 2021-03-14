@@ -29,5 +29,6 @@ choco install quicklook
 choco install eartrumpet
 choco install everything
 choco install whatsapp
+choco install telegram
 
 choco install choco-cleaner 
