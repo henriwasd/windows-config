@@ -28,5 +28,6 @@ choco install droidcamclient
 choco install quicklook
 choco install eartrumpet
 choco install everything
+choco install whatsapp
 
 choco install choco-cleaner 
