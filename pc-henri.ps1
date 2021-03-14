@@ -31,5 +31,6 @@ choco install everything
 choco install whatsapp
 choco install telegram
 choco install insomnia-rest-api-client
+choco install dbeaver
 
 choco install choco-cleaner 
