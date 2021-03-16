@@ -34,5 +34,6 @@ choco install insomnia-rest-api-client
 choco install dbeaver
 choco install nodejs --version 10.16.0
 choco install yarn
+choco install poshgit
 
 choco install choco-cleaner 
