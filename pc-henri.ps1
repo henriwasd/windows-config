@@ -25,7 +25,6 @@ choco install obs-studio
 choco install gimp
 choco install qbittorrent
 choco install droidcamclient
-choco install quicklook
 choco install eartrumpet
 choco install everything
 choco install whatsapp
