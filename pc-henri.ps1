@@ -35,5 +35,6 @@ choco install nodejs --version 10.16.0
 choco install yarn
 choco install poshgit
 choco install obs-virtualcam
+choco install ecm
 
 choco install choco-cleaner 
