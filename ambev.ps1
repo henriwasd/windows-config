@@ -22,5 +22,6 @@ choco install dbeaver
 choco install firacode
 choco install forticlientvpn
 choco install anydesk
+choco install screentogif
 
 choco install choco-cleaner 
