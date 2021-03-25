@@ -36,5 +36,6 @@ choco install yarn
 choco install poshgit
 choco install obs-virtualcam
 choco install ecm
+choco install gitkraken
 
 choco install choco-cleaner 
