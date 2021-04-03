@@ -27,8 +27,6 @@ choco install qbittorrent
 choco install droidcamclient
 choco install eartrumpet
 choco install everything
-choco install whatsapp
-choco install telegram
 choco install insomnia-rest-api-client
 choco install dbeaver
 choco install nodejs --version 10.16.0
