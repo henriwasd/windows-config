@@ -35,5 +35,6 @@ choco install poshgit
 choco install obs-virtualcam
 choco install ecm
 choco install sublimetext3
+choco install t-clock
 
 choco install choco-cleaner 
