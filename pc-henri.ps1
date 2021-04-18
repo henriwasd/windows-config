@@ -36,5 +36,6 @@ choco install obs-virtualcam
 choco install ecm
 choco install sublimetext3
 choco install t-clock
+choco install powertoys
 
 choco install choco-cleaner 
