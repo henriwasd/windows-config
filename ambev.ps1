@@ -15,7 +15,7 @@ choco install vscode
 choco install sublimetext3
 choco install yumi
 choco install nodejs --version 10.16.0
-choco install openjdk
+choco install openjdk11
 choco install insomnia-rest-api-client
 choco install postgresql
 choco install dbeaver
