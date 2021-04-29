@@ -37,5 +37,6 @@ choco install ecm
 choco install sublimetext3
 choco install t-clock
 choco install powertoys
+choco install screentogif
 
 choco install choco-cleaner 
