@@ -26,10 +26,10 @@ CapsLock & Backspace:: Send {Blind}{CapsLock up}{Del}
 CapsLock & p:: Send {Blind}{CapsLock up}{PrintScreen}
 
 ;function keys - arrow
-RShift & Right:: Send {Blind}{RShift up}{End}
-RShift & Left:: Send {Blind}{RShift up}{Home}
-RShift & Down:: Send {Blind}{RShift up}{PgDn}
-RShift & Up:: Send {Blind}{RShift up}{PgUp}
+CapsLock & Right:: Send {Blind}{CapsLock up}{End}
+CapsLock & Left:: Send {Blind}{CapsLock up}{Home}
+CapsLock & Down:: Send {Blind}{CapsLock up}{PgDn}
+CapsLock & Up:: Send {Blind}{CapsLock up}{PgUp}
 
 ;accent keys
 LShift & Esc:: Send {Blind}{LShift up}{~}
