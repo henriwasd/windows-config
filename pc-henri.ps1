@@ -29,14 +29,11 @@ choco install eartrumpet
 choco install everything
 choco install insomnia-rest-api-client
 choco install dbeaver
-choco install nodejs --version 10.16.0
 choco install yarn
 choco install poshgit
 choco install obs-virtualcam
 choco install ecm
 choco install sublimetext3
-choco install t-clock
-choco install powertoys
-choco install screentogif
+choco install nvm
 
 choco install choco-cleaner 
