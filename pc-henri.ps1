@@ -35,5 +35,7 @@ choco install obs-virtualcam
 choco install ecm
 choco install sublimetext3
 choco install nvm
+choco install powershell-core
+choco install poshgit
 
 choco install choco-cleaner 
