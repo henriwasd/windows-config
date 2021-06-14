@@ -28,3 +28,5 @@ cmder.exe /register all
         "fontFace": "Cascadia Code",
         "fontSize": 10
   },
+
+  Teste remote
