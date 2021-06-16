@@ -28,5 +28,6 @@ choco install powershell-core
 choco install autohotkey
 choco install obs-studio
 choco install gimp
+choco install chocolatey-windowsupdate.extension
 
 choco install choco-cleaner 
