@@ -1,12 +1,13 @@
 choco feature enable -n=allowGlobalConfirmation
 
-choco install explorer-winconfig --params "'/SHOWHIDDEN:yes /SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWENCRYPTED:no /SHOWCHECKBOXES:yes /USESHARINGWIZARD:no /USEVIEW:details'"
-choco install desktopicons-winconfig --params "'/Desktop:NO /UserFiles:NO /ControlPanel:NO /Network:NO /RecycleBin:YES /OneDrive:NO'"
-choco install taskbar-winconfig --params "' /AUTOTRAY:YES /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:yes /TASKVIEW:no /KEYBOARD:no /USEPOWERSHELL:yes'"
+choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:no /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
+choco install desktopicons-winconfig --params "' /RecycleBin:YES  /ControlPanel:YES /UserFiles:YES /Computer:YES'"
+choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:no /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:YES /SIZE:small'"
 
 choco install chocolatey
 choco install everything
 choco install googlechrome
+choco install discord
 choco install 7zip
 choco install git
 choco install vscode
@@ -19,5 +20,13 @@ choco install postgresql
 choco install dbeaver
 choco install firacode
 choco install screentogif
+choco install obs-virtualcam
+choco install ecm
+choco install sublimetext3
+choco install nvm
+choco install powershell-core
+choco install autohotkey
+choco install obs-studio
+choco install gimp
 
 choco install choco-cleaner 
