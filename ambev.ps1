@@ -32,5 +32,6 @@ choco install obs-studio
 choco install gimp
 choco install chocolatey-windowsupdate.extension
 choco install terminus
+choco install eartrumpet
 
 choco install choco-cleaner 
