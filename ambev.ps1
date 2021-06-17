@@ -33,5 +33,6 @@ choco install gimp
 choco install chocolatey-windowsupdate.extension
 choco install terminus
 choco install eartrumpet
+choco install kubernetes-cli
 
 choco install choco-cleaner 
