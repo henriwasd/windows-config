@@ -37,5 +37,6 @@ choco install sublimetext3
 choco install nvm
 choco install powershell-core
 choco install autohotkey
+choco install t-clock
 
 choco install choco-cleaner 
