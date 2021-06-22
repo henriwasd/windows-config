@@ -1,6 +1,6 @@
 set backspace=indent,eol,start
 set autoindent
-set tabstop=2
+set tabstop=4
 set encoding=utf-8
 syntax on
 let mapleader = ","
