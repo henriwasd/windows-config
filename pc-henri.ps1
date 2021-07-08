@@ -38,7 +38,6 @@ choco install nvm
 choco install powershell-core
 choco install autohotkey
 choco install t-clock
-choco install vscode-insiders
 choco install taskbarx
 choco install reactotron
 
