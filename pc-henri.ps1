@@ -25,7 +25,6 @@ choco install obs-studio
 choco install gimp
 choco install qbittorrent
 choco install droidcamclient
-choco install eartrumpet
 choco install everything
 choco install insomnia-rest-api-client
 choco install dbeaver
@@ -37,8 +36,7 @@ choco install sublimetext3
 choco install nvm
 choco install powershell-core
 choco install autohotkey
-choco install t-clock
-choco install taskbarx
 choco install reactotron
+choco install lightshot
 
 choco install choco-cleaner 
