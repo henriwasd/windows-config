@@ -39,4 +39,5 @@ choco install eartrumpet
 choco install autohotkey
 choco install lightshot
 choco install powertoys
+choco install t-clock
 choco install choco-cleaner
