@@ -35,4 +35,5 @@ choco install powertoys
 choco install t-clock
 choco install whatsapp
 choco install telegram
+choco install vmware-workstation-player
 choco install choco-cleaner
