@@ -14,7 +14,6 @@ choco install git
 choco install vscode
 choco install discord
 choco install firacode
-choco install epicgameslauncher
 choco install chocolatey-windowsupdate.extension
 choco install obs-studio
 choco install qbittorrent
