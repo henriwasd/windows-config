@@ -12,17 +12,11 @@ choco install googlechrome
 choco install 7zip
 choco install git
 choco install vscode
-choco install steam
-choco install uplay
-choco install origin
 choco install discord
 choco install firacode
 choco install epicgameslauncher
-choco install teamspeak
 choco install chocolatey-windowsupdate.extension
-choco install battle.net
 choco install obs-studio
-choco install gimp
 choco install qbittorrent
 choco install droidcamclient
 choco install everything
@@ -40,4 +34,6 @@ choco install autohotkey
 choco install lightshot
 choco install powertoys
 choco install t-clock
+choco install whatsapp
+choco install telegram
 choco install choco-cleaner
