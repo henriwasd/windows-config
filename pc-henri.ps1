@@ -2,9 +2,9 @@ Set-ExecutionPolicy unrestricted -Scope Process -Force; iex ((New-Object System.
 
 choco feature enable -n=allowGlobalConfirmation
 
-choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:no /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
-choco install desktopicons-winconfig --params "' /RecycleBin:YES  /ControlPanel:YES /UserFiles:YES /Computer:YES'"
-choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:no /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:YES /SIZE:small'"
+choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:yes /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
+choco install desktopicons-winconfig --params "' /RecycleBin:YES /ControlPanel:YES /UserFiles:YES /Computer:YES'"
+choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:no /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:NO /SIZE:small'"
 
 choco install anydesk 
 choco install chocolatey
@@ -29,14 +29,14 @@ choco install everything
 choco install insomnia-rest-api-client
 choco install dbeaver
 choco install yarn
-choco install poshgit
 choco install obs-virtualcam
 choco install ecm
 choco install sublimetext3
 choco install nvm
 choco install powershell-core
+choco install poshgit
+choco install eartrumpet
 choco install autohotkey
-choco install reactotron
 choco install lightshot
-
-choco install choco-cleaner 
+choco install powertoys
+choco install choco-cleaner
