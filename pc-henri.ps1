@@ -39,4 +39,5 @@ choco install whatsapp
 choco install telegram
 choco install vmware-workstation-player
 choco install spotify
+choco install taskbarx
 choco install choco-cleaner
