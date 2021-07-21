@@ -6,7 +6,7 @@ choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:ye
 choco install desktopicons-winconfig --params "' /RecycleBin:YES  /ControlPanel:YES /UserFiles:YES /Computer:YES'"
 choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:no /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:YES /SIZE:big'"
 
-choco install chocolatey
+choco install chocolateygui
 choco install anydesk
 choco install googlechrome
 choco install 7zip

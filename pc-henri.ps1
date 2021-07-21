@@ -5,11 +5,12 @@ choco feature enable -n=allowEmptyChecksums
 
 choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:yes /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
 choco install desktopicons-winconfig --params "' /RecycleBin:YES /ControlPanel:YES /UserFiles:YES /Computer:YES'"
-choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:no /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:NO /SIZE:small'"
+choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:NO /SIZE:small'"
 
 choco install chocolateygui
+choco install openjdk8
 choco install anydesk
-choco install chocolatey 
+choco install everything
 choco install googlechrome
 choco install 7zip 
 choco install git
@@ -20,7 +21,6 @@ choco install chocolatey-windowsupdate.extension
 choco install obs-studio
 choco install qbittorrent 
 choco install droidcamclient
-choco install everything
 choco install insomnia-rest-api-client
 choco install dbeaver
 choco install yarn
