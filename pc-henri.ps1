@@ -9,16 +9,16 @@ choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:no /AUTOTRAY:Y
 
 choco install chocolateygui
 choco install anydesk
-choco install chocolatey
+choco install chocolatey 
 choco install googlechrome
-choco install 7zip
+choco install 7zip 
 choco install git
-choco install vscode
+choco install vscode 
 choco install discord
 choco install firacode
 choco install chocolatey-windowsupdate.extension
 choco install obs-studio
-choco install qbittorrent
+choco install qbittorrent 
 choco install droidcamclient
 choco install everything
 choco install insomnia-rest-api-client
