@@ -18,7 +18,7 @@ choco install 7zip
 choco install git
 choco install vscode 
 choco install discord
-choco install firacode
+choco install cascadia-code-nerd-font
 choco install chocolatey-windowsupdate.extension
 choco install obs-studio
 choco install qbittorrent 
