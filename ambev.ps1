@@ -13,5 +13,6 @@ choco install autohotkey
 choco install gimp
 choco install kubernetes-cli
 choco install zoom
+choco install forticlientvpn
 
 choco install choco-cleaner 
