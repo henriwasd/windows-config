@@ -43,4 +43,5 @@ choco install vmware-workstation-player
 choco install spotify
 choco install taskbarx
 choco install hwmonitor
+choco install scrcpy
 choco install choco-cleaner
