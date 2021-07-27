@@ -1,6 +1,6 @@
 set backspace=indent,eol,start
 set autoindent
-set tabstop=2
+set tabstop=4
 set encoding=utf-8
 syntax on
 let mapleader = ","
@@ -50,14 +50,14 @@ imap <C-V> x<Esc>\\paste\\"_s
 vmap <C-V> "-cx<Esc>\\paste\\"_x
 
 if has("gui_running")
-	if has("gui_gtk2")
-		set guifont=Inconsolata\ 12
-	elseif has ("gui_macvim")	
-		set guifont=Menlo\ Regular:h14
-	elseif has ("gui_win32")	
-		set guifont=Consolas:h11:cANSI
-	endif
-endif	
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has ("gui_macvim") 
+    set guifont=Menlo\ Regular:h14
+  elseif has ("gui_win32")  
+    set guifont=Consolas:h11:cANSI
+  endif
+endif 
 
 set pythonthreehome=C:\Python36\
 set pythonthreedll=C:\Python36\python36.dll
@@ -92,7 +92,17 @@ Plug 'rafi/awesome-vim-colorschemes'
 
 Plug 'terryma/vim-multiple-cursors'
 
+Plug 'frazrepo/vim-rainbow'
+
+Plug 'dart-lang/dart-vim-plugin'
+
+Plug 'natebosch/vim-lsc'
+
+Plug 'natebosch/vim-lsc-dart'
+
 call plug#end()
+
+let g:rainbow_active = 1
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
@@ -142,6 +152,10 @@ let g:esearch.live_update = 0
 " Open the search window in a vertical split and reuse it for all further searches.
 let g:esearch.name = '[esearch]'
 let g:esearch.win_new = {esearch -> esearch#buf#goto_or_open(esearch.name, 'vnew')}
+
+let g:minimap_width = 10
+let g:minimap_auto_start = 1
+let g:minimap_auto_start_win_enter = 1
 
 " Redefine the default highlights (see :help highlight and :help esearch-appearance)
 highlight      esearchHeader     cterm=bold gui=bold ctermfg=white ctermbg=white
