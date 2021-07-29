@@ -43,4 +43,8 @@ choco install vmware-workstation-player
 choco install spotify
 choco install hwmonitor
 choco install scrcpy
+choco install vim
 choco install choco-cleaner
+
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni $HOME/vimfiles/autoload/plug.vim -Force
