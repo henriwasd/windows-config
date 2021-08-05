@@ -12,7 +12,7 @@ choco install openjdk8
 choco install anydesk
 choco install everything
 choco install googlechrome
-choco install brave
+choco install opera-gx
 choco install firefox
 choco install 7zip 
 choco install git
