@@ -1,6 +1,6 @@
 # choco
 
-Config do chocolatey que uso em minhas maquinas
+Config do `chocolatey` que uso em minhas maquinas
 
 ## Command install
 
