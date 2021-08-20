@@ -34,10 +34,7 @@ choco install poshgit
 choco install autohotkey
 choco install lightshot
 choco install powertoys
-choco install whatsapp
-choco install telegram
 choco install vmware-workstation-player
-choco install spotify
 choco install hwmonitor
 choco install scrcpy
 choco install vim
