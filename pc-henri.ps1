@@ -31,11 +31,9 @@ choco install sublimetext3
 choco install nvm
 choco install powershell-core
 choco install poshgit
-choco install eartrumpet
 choco install autohotkey
 choco install lightshot
 choco install powertoys
-choco install t-clock
 choco install whatsapp
 choco install telegram
 choco install vmware-workstation-player
