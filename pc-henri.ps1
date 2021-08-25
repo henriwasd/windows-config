@@ -41,6 +41,8 @@ choco install vim
 choco install docker-desktop
 choco install minikube
 choco install eartrumpet
+choco install whatsapp
+choco install telegram
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
