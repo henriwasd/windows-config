@@ -14,7 +14,9 @@ choco install everything
 choco install googlechrome
 choco install firefox
 choco install 7zip 
+#choco install git
 choco install vscode-insiders
+choco install vscode
 choco install discord
 choco install cascadia-code-nerd-font
 choco install chocolatey-windowsupdate.extension
@@ -29,7 +31,7 @@ choco install ecm
 choco install sublimetext3
 choco install nvm
 choco install powershell-core
-choco install poshgit
+#choco install poshgit
 choco install autohotkey
 choco install lightshot
 choco install powertoys
