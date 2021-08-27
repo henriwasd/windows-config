@@ -14,7 +14,6 @@ choco install everything
 choco install googlechrome
 choco install firefox
 choco install 7zip 
-choco install git
 choco install vscode 
 choco install discord
 choco install cascadia-code-nerd-font
