@@ -9,7 +9,6 @@ choco install gimp
 choco install kubernetes-cli
 choco install zoom
 choco install forticlientvpn
-choco install microsoft-teams
 choco install flutter
 
 choco install choco-cleaner 
