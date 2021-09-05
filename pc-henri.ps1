@@ -45,6 +45,9 @@ choco install eartrumpet
 choco install whatsapp
 choco install telegram
 choco install t-clock
+choco install epicgameslauncher
+choco install steam-client
+choco install battle.net
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
