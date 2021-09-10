@@ -2,6 +2,7 @@ Set-ExecutionPolicy unrestricted -Scope Process -Force; iex ((New-Object System.
 
 choco feature enable -n=allowGlobalConfirmation
 choco feature enable -n=allowEmptyChecksums
+choco feature disable -n=checksumFiles
 
 choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:yes /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
 choco install desktopicons-winconfig --params "' /RecycleBin:YES /ControlPanel:YES /UserFiles:YES /Computer:YES'"
