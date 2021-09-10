@@ -2,6 +2,8 @@ Set-ExecutionPolicy unrestricted -Scope Process -Force; iex ((New-Object System.
 
 choco feature enable -n=allowGlobalConfirmation
 choco feature enable -n=allowEmptyChecksums
+choco feature disable -n=checksumFiles
+
 choco install postgresql
 choco install screentogif
 choco install autohotkey
