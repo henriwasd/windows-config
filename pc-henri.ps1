@@ -51,6 +51,7 @@ choco install steam-client
 choco install battle.net
 choco install ubisoft-connect
 choco install scrcpy
+choco install vibrancegui
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
