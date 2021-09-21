@@ -50,8 +50,8 @@ CapsLock & -:: Send {Blind}{CapsLock up}{F11}
 CapsLock & =:: Send {Blind}{CapsLock up}{F12}
 
 ;media keys
-CapsLock & z:: Send {Blind}{CapsLock up}{Volume_Up}
-CapsLock & x:: Send {Blind}{CapsLock up}{Volume_Down}
+CapsLock & x:: Send {Blind}{CapsLock up}{Volume_Up}
+CapsLock & z:: Send {Blind}{CapsLock up}{Volume_Down}
 CapsLock & c:: Send {Blind}{CapsLock up}{Volume_Mute}
 CapsLock & v:: Send {Blind}{CapsLock up}{Media_Prev}
 CapsLock & b:: Send {Blind}{CapsLock up}{Media_Play_Pause}
