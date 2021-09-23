@@ -16,13 +16,13 @@ choco install googlechrome
 choco install firefox
 choco install 7zip 
 choco install git
-#choco install vscode-insiders
+# choco install vscode-insiders
 choco install vscode
 choco install discord
 choco install cascadia-code-nerd-font
 choco install chocolatey-windowsupdate.extension
 choco install obs-studio
-choco install qbittorrent 
+# choco install qbittorrent 
 choco install droidcamclient
 choco install insomnia-rest-api-client
 choco install dbeaver
@@ -52,6 +52,9 @@ choco install battle.net
 choco install ubisoft-connect
 choco install scrcpy
 choco install vibrancegui
+choco install motrix
+choco install onlyoffice
+choco install autohotkey
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
