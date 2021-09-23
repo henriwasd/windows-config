@@ -2,10 +2,10 @@
 ; #InstallKeybdHook
 
 ;arrow keys
-CapsLock & w:: Send {Blind}{CapsLock up}{Up}
-CapsLock & a:: Send {Blind}{CapsLock up}{Left}
-CapsLock & s:: Send {Blind}{CapsLock up}{Down}
-CapsLock & d:: Send {Blind}{CapsLock up}{Right}
+;CapsLock & w:: Send {Blind}{CapsLock up}{Up}
+;CapsLock & a:: Send {Blind}{CapsLock up}{Left}
+;CapsLock & s:: Send {Blind}{CapsLock up}{Down}
+;CapsLock & d:: Send {Blind}{CapsLock up}{Right}
 
 ;function keys - right shift
 RShift & ]:: Send {Blind}{RShift up}{End}
