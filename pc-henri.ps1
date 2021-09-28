@@ -13,7 +13,6 @@ choco install openjdk8
 choco install anydesk
 choco install everything
 choco install googlechrome
-choco install firefox
 choco install 7zip 
 choco install git
 # choco install vscode-insiders
@@ -35,26 +34,23 @@ choco install powershell-core
 choco install poshgit
 choco install autohotkey
 choco install lightshot
-choco install powertoys
 choco install vmware-workstation-player
 choco install hwmonitor
 choco install scrcpy
 choco install vim
-choco install docker-desktop
 choco install minikube
 choco install eartrumpet
-choco install whatsapp
-choco install telegram
-choco install t-clock
 choco install epicgameslauncher
 choco install steam-client
 choco install battle.net
 choco install ubisoft-connect
 choco install scrcpy
-choco install vibrancegui
 choco install motrix
 choco install onlyoffice
 choco install autohotkey
+choco install kubernetes-cli
+choco install flutter
+choco install androidstudio
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`

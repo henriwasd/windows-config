@@ -10,9 +10,7 @@ choco install chocolateygui
 choco install anydesk
 choco install googlechrome
 choco install 7zip
-choco install obs-studio
 choco install gimp
-choco install qbittorrent
 choco install droidcamclient
 choco install everything
 choco install sublimetext3
