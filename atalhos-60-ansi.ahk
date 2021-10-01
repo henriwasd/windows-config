@@ -8,13 +8,13 @@
 ;CapsLock & d:: Send {Blind}{CapsLock up}{Right}
 
 ;function keys - right shift
-RShift & ]:: Send {Blind}{RShift up}{End}
-RShift & [:: Send {Blind}{RShift up}{Home}
-RShift & ':: Send {Blind}{RShift up}{PgDn}
-RShift & `;:: Send {Blind}{RShift up}{PgUp}
-RShift & \:: Send {Blind}{RShift up}{Ins}
-RShift & Backspace:: Send {Blind}{RShift up}{Del}
-RShift & p:: Send {Blind}{RShift up}{PrintScreen}
+;RShift & ]:: Send {Blind}{RShift up}{End}
+;RShift & [:: Send {Blind}{RShift up}{Home}
+;RShift & ':: Send {Blind}{RShift up}{PgDn}
+;RShift & `;:: Send {Blind}{RShift up}{PgUp}
+;RShift & \:: Send {Blind}{RShift up}{Ins}
+;RShift & Backspace:: Send {Blind}{RShift up}{Del}
+;RShift & p:: Send {Blind}{RShift up}{PrintScreen}
 
 ;function keys - capslock
 CapsLock & ]:: Send {Blind}{CapsLock up}{End}
