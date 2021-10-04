@@ -13,5 +13,6 @@ choco install zoom
 choco install forticlientvpn
 choco install flutter
 choco install androidstudio
+choco install reactotron
 
 choco install choco-cleaner 
