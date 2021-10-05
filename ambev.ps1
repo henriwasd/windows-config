@@ -4,6 +4,36 @@ choco feature enable -n=allowGlobalConfirmation
 choco feature enable -n=allowEmptyChecksums
 choco feature disable -n=checksumFiles
 
+choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:yes /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
+choco install desktopicons-winconfig --params "' /RecycleBin:YES /ControlPanel:YES /UserFiles:YES /Computer:YES'"
+choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:NO /SIZE:small'"
+
+choco install chocolateygui
+choco install openjdk8
+choco install anydesk
+choco install everything
+choco install googlechrome
+choco install 7zip
+choco install git
+choco install vscode
+choco install discord
+choco install cascadia-code-nerd-font
+choco install chocolatey-windowsupdate.extension
+choco install obs-studio
+choco install droidcamclient
+choco install insomnia-rest-api-client
+choco install dbeaver
+choco install yarn
+choco install ecm
+choco install nvm
+choco install powershell-core
+choco install poshgit
+choco install lightshot
+choco install vim
+choco install minikube
+choco install eartrumpet
+choco install scrcpy
+choco install motrix
 choco install postgresql
 choco install screentogif
 choco install autohotkey
@@ -14,5 +44,7 @@ choco install forticlientvpn
 choco install flutter
 choco install androidstudio
 choco install reactotron
-
 choco install choco-cleaner 
+
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni $HOME/vimfiles/autoload/plug.vim -Force

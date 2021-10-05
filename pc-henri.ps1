@@ -32,11 +32,9 @@ choco install sublimetext3
 choco install nvm
 choco install powershell-core
 choco install poshgit
-choco install autohotkey
 choco install lightshot
 choco install vmware-workstation-player
 choco install hwmonitor
-choco install scrcpy
 choco install vim
 choco install minikube
 choco install eartrumpet
