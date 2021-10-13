@@ -42,6 +42,7 @@ choco install kubernetes-cli
 choco install flutter
 choco install androidstudio
 choco install dotnet-sdk
+choco install vlc
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
