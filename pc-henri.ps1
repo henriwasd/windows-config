@@ -14,7 +14,6 @@ choco install git
 # choco install vscode-insiders
 choco install vscode
 choco install discord
-choco install cascadia-code-nerd-font
 choco install chocolatey-windowsupdate.extension
 choco install obs-studio
 # choco install qbittorrent 
@@ -27,7 +26,6 @@ choco install ecm
 choco install sublimetext3
 choco install nvm
 choco install lightshot
-choco install vmware-workstation-player
 choco install hwmonitor
 choco install vim
 choco install minikube
