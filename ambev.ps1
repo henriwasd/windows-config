@@ -4,10 +4,6 @@ choco feature enable -n=allowGlobalConfirmation
 choco feature enable -n=allowEmptyChecksums
 choco feature disable -n=checksumFiles
 
-choco install explorer-winconfig --params "'/SHOWEXTENSIONS:yes /SHOWFULLPATH:yes /SHOWHIDDEN:yes /SHOWCHECKBOXES:yes /SHOWENCRYPTED:yes /SHOWPREVIEWPANE:yes /SHOWDETAILSPANE:yes /SHOWDRIVESNOMEDIA:yes /USEVIEW:details /USESHARINGWIZARD:yes'"
-choco install desktopicons-winconfig --params "' /RecycleBin:YES /ControlPanel:YES /UserFiles:YES /Computer:YES'"
-choco install taskbar-winconfig --params "' /CORTANA:no /COMBINED:yes /AUTOTRAY:YES /STORE:NO /TASKVIEW:NO /KEYBOARD:NO /USEPOWERSHELL:NO /SIZE:small'"
-
 choco install chocolateygui
 choco install openjdk8
 choco install anydesk
@@ -26,8 +22,6 @@ choco install dbeaver
 choco install yarn
 choco install ecm
 choco install nvm
-choco install powershell-core
-choco install poshgit
 choco install lightshot
 choco install vim
 choco install minikube
@@ -36,7 +30,6 @@ choco install scrcpy
 choco install motrix
 choco install postgresql
 choco install screentogif
-choco install autohotkey
 choco install gimp
 choco install kubernetes-cli
 choco install zoom
