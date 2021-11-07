@@ -44,6 +44,8 @@ choco install androidstudio
 choco install dotnet-sdk
 choco install vlc
 choco install kdenlive
+choco install oh-my-posh
+choco install poshgit
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
