@@ -46,6 +46,9 @@ choco install vlc
 choco install kdenlive
 choco install oh-my-posh
 choco install poshgit
+choco install whatsapp
+choco install telegram
+choco install streamlabs-obs
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
