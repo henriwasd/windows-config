@@ -50,6 +50,7 @@ choco install whatsapp
 choco install telegram
 choco install streamlabs-obs
 choco install microsoft-windows-terminal
+choco install postman
 choco install choco-cleaner
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
