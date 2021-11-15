@@ -38,6 +38,14 @@ choco install flutter
 choco install androidstudio
 choco install reactotron
 choco install dotnet-sdk
+choco install postman
+choco install microsoft-windows-terminal
+choco install whatsapp
+choco install telegram
+choco install oh-my-posh
+choco install poshgit
+choco install vlc
+choco install kdenlive
 choco install choco-cleaner 
 
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
