@@ -16,7 +16,6 @@ choco install discord
 choco install cascadia-code-nerd-font
 choco install chocolatey-windowsupdate.extension
 choco install obs-studio
-choco install droidcamclient
 choco install insomnia-rest-api-client
 choco install dbeaver
 choco install yarn
