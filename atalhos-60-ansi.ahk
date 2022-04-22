@@ -34,6 +34,7 @@ CapsLock & Up:: Send {Blind}{CapsLock up}{PgUp}
 ;accent keys
 LShift & Esc:: Send {Blind}{LShift up}{~}
 LControl & Esc:: Send {Blind}{LControl up}{``}
+LControl & 1:: Send {Text}|
 
 ;function keys f1 - f12
 CapsLock & 1:: Send {Blind}{CapsLock up}{F1}
