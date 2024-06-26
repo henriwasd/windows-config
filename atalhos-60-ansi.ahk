@@ -24,6 +24,7 @@ CapsLock & `;:: Send {Blind}{CapsLock up}{PgUp}
 CapsLock & \:: Send {Blind}{CapsLock up}{Ins}
 CapsLock & Backspace:: Send {Blind}{CapsLock up}{Del}
 CapsLock & p:: Send {Blind}{CapsLock up}{PrintScreen}
+CapsLock & q:: Send {Blind}{CapsLock up}{PrintScreen}
 
 ;function keys - arrow
 CapsLock & Right:: Send {Blind}{CapsLock up}{End}
@@ -34,7 +35,6 @@ CapsLock & Up:: Send {Blind}{CapsLock up}{PgUp}
 ;accent keys
 LShift & Esc:: Send {Blind}{LShift up}{~}
 LControl & Esc:: Send {Blind}{LControl up}{``}
-LControl & 1:: Send {Text}|
 
 ;function keys f1 - f12
 CapsLock & 1:: Send {Blind}{CapsLock up}{F1}
@@ -51,9 +51,9 @@ CapsLock & -:: Send {Blind}{CapsLock up}{F11}
 CapsLock & =:: Send {Blind}{CapsLock up}{F12}
 
 ;media keys
-CapsLock & x:: Send {Blind}{CapsLock up}{Volume_Up}
+CapsLock & c:: Send {Blind}{CapsLock up}{Volume_Up}
 CapsLock & z:: Send {Blind}{CapsLock up}{Volume_Down}
-CapsLock & c:: Send {Blind}{CapsLock up}{Volume_Mute}
-CapsLock & v:: Send {Blind}{CapsLock up}{Media_Prev}
-CapsLock & b:: Send {Blind}{CapsLock up}{Media_Play_Pause}
-CapsLock & n:: Send {Blind}{CapsLock up}{Media_Next}
+CapsLock & x:: Send {Blind}{CapsLock up}{Volume_Mute}
+CapsLock & a:: Send {Blind}{CapsLock up}{Media_Prev}
+CapsLock & s:: Send {Blind}{CapsLock up}{Media_Play_Pause}
+CapsLock & d:: Send {Blind}{CapsLock up}{Media_Next}
